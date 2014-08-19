@@ -6,6 +6,12 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: blur(5px);
+// Browser Specific
+-webkit-filter: blur(5px);
+-moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
 }
 
 #bg { position: fixed; top: 0; left: 0; }
